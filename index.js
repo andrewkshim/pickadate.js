@@ -1,8 +1,5 @@
 'use strict';
 
 require('./lib/picker');
-
-module.exports = {
-  Date: require('./lib/picker.date'),
-  Time: require('./lib/picker.time')
-};
+require('./lib/picker.date');
+require('./lib/picker.time');
